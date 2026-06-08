@@ -1,45 +1,114 @@
-🔐 Task 6: Password Strength Evaluation
-Objective
+# Task 6: Create a Strong Password and Evaluate Its Strength
 
-The purpose of this task is to understand how password complexity affects security and to evaluate different passwords using an online Password Strength Testing Tool.
+## Objective
 
-Tools Used
-Password Strength Testing Tool
-Web Browser
-Passwords Tested
-Password	Strength Rating	Estimated Crack Time
-123456	Very Weak	Less Than A Second
-Pushpendra123	Good	1 Year
-Push@2026	Weak	8 Hours
-P#sh2026!Cyber	Good	32 Years
-T!g3r$Sky#2026@Secure	Strong	Centuries
-Screenshots
-1. Very Weak Password
+The objective of this task is to understand what makes a password strong and to evaluate password strength using online password strength checking tools.
 
-Password: 123456
+## Tools Used
 
-Result: Very Weak
+* PasswordMeter (Online Password Strength Checker)
+* Web Browser
+* GitHub
 
-2. Good Password
+## Passwords Tested
 
-Password: Pushpendra123
+| Password              | Strength    |
+| --------------------- | ----------- |
+| password123           | Weak        |
+| Devendra123           | Medium      |
+| Dev@12345             | Strong      |
+| D3v!2026#Cyber        | Very Strong |
+| My$ecureP@ssw0rd!2026 | Very Strong |
 
-Result: Good
+## Password Strength Analysis
 
-3. Weak Password
+### 1. Weak Password
 
-Password: Push@2026
+**Password:** password123
 
-Result: Weak
+**Observations:**
 
-4. Good Password
+* Common dictionary word
+* Predictable pattern
+* Easy to crack using dictionary attacks
 
-Password: P#sh2026!Cyber
+### 2. Medium Password
 
-Result: Good
+**Password:** Devendra123
 
-5. Strong Password
+**Observations:**
 
-Password: T!g3r$Sky#2026@Secure
+* Contains numbers
+* Uses personal information
+* Vulnerable to guessing attacks
 
-Result: Strong
+### 3. Strong Password
+
+**Password:** Dev@12345
+
+**Observations:**
+
+* Includes uppercase, lowercase, numbers, and symbols
+* Better resistance against attacks
+
+### 4. Very Strong Password
+
+**Password:** D3v!2026#Cyber
+
+**Observations:**
+
+* Complex character combination
+* Difficult to guess
+* Resistant to brute-force attacks
+
+### 5. Very Strong Password
+
+**Password:** My$ecureP@ssw0rd!2026
+
+**Observations:**
+
+* Long password length
+* Multiple character types
+* Excellent security
+
+## Common Password Attacks
+
+### Brute Force Attack
+
+A brute force attack attempts every possible password combination until the correct password is found.
+
+### Dictionary Attack
+
+A dictionary attack uses a list of common words and passwords to gain access to accounts.
+
+## Best Practices for Strong Passwords
+
+* Use at least 12–16 characters.
+* Combine uppercase and lowercase letters.
+* Include numbers and special characters.
+* Avoid personal information.
+* Do not reuse passwords across multiple accounts.
+* Enable Multi-Factor Authentication (MFA).
+* Use a password manager to generate and store passwords securely.
+
+## Key Learnings
+
+* Password length significantly improves security.
+* Complex passwords are harder to crack.
+* Dictionary words should be avoided.
+* Password managers help maintain strong and unique passwords.
+* MFA provides an additional layer of protection.
+
+## Conclusion
+
+This task demonstrated how password complexity affects security. Strong passwords containing a mix of characters and sufficient length provide better protection against brute force and dictionary attacks. Following password security best practices helps safeguard online accounts and sensitive information.
+
+## Repository Contents
+
+* README.md
+* Password Strength Screenshots
+* Task Report (if applicable)
+
+## Outcome
+
+Successfully understood password security concepts, password strength evaluation, common password attacks, and best practices for creating secure passwords.
