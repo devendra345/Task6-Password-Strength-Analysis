@@ -1,0 +1,30 @@
+Password 1: 123456
+Extremely weak password.
+Contains only numbers.
+Commonly used and found in leaked password databases.
+Can be cracked in less than a second.
+
+Password 2: Pushpendra123
+Better than simple passwords.
+Contains letters and numbers.
+However, it includes a predictable name which reduces security.
+Estimated crack time: 1 year.
+
+Password 3: Push@2026
+Includes a special character (@).
+Still relatively short and predictable.
+Estimated crack time: 8 hours.
+Considered weak due to limited complexity.
+
+Password 4: P#sh2026!Cyber
+Contains uppercase/lowercase letters, numbers, and special characters.
+Longer and more complex.
+Estimated crack time: 32 years.
+Provides significantly better protection.
+
+Password 5: T!g3r$Sky#2026@Secure
+Long password with mixed character types.
+Includes uppercase letters, lowercase letters, numbers, and symbols.
+Highly resistant to brute-force attacks.
+Estimated crack time: Centuries.
+Strongest password among all tested samples.
